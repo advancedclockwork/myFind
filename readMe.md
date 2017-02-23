@@ -5,3 +5,5 @@ gcc -o myFind find.cpp
 ./myFind [filename] [file path]
 
 searches directory listed in filepath and every directory contained for filenames containing the filename provided and returns that files information.
+
+  if filepath is left blank, the current directory is used by default
